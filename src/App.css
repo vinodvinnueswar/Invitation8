@@ -409,20 +409,427 @@ color: wheat;
 }
 
 
+/* 325px */
+@media (max-width: 340px) {
+  
+  /* Home Page */
+  .HomePage{
+    margin-top: -40px;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffc0ec;
+    background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+  
+  }
+  .Boreder{
+    margin-top: -20px;
+    box-shadow: 2px 2px 6px 6px  black;
+  }
+  
+  /* Intro Container */
+  .Intro_Container{
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  
+  .Intro_Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 2px 2px 6px 6px  black;
+  }
+  
+  .Flower_decors img{
+    margin-top: 90px;
+    height: 100px;
+    width: 250px;
+    
+  
+  }
+  .sideWall img{
+    margin-top: -170px;
+    height: 500px;
+    width: 360px;
+  }
+  
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+  .details h2{
+    margin-top: -350px;
+    font-size: 28px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: maroon;
+  }
+  .details h3{
+    font-size: 20px;
+    color: rgb(119, 5, 5);
+    font-family: "Play", sans-serif;
+  }
+  .details p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Play", sans-serif;
+  }
+  .Garden img{
+    margin-top: -20px;
+    height: 220px;
+    width: 400px;
+  }
+  .Girl_Swing{
+    margin-top: -308px;
+  }
+  .Girl_Swing img{
+    margin-top: 25px;
+    height: 300px;
+    padding-left: 90px;
+  
+  }
+  .Frame{
+    margin-top: -70px;
+  }
+  .Frame img{
+    margin-top: -970px;
+    height: 250px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  /* Details Page */
+  .Details_Container{
+    margin-top: -200px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  .Details_Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180vh;
+    width: 100vw;
+    box-shadow: 2px 2px 6px 5px  black;
+  }
+  .Bell{
+    margin-top: 50px;
+  }
+  .Bell img{
+    margin-top: 00px;
+    height: 200px;
+    width: 300px;
+  }
+  .Flower_bg{
+    margin-top: -200px;
+  }
+  .Flower_bg img{
+    margin-top: -60px;
+    height: 400px;
+    width: 420px;
+  }
+  .Girl_Img{
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(241, 185, 88);
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+  }
+  .Girl_Img img{
+    margin-top:-100px;
+    height: 250px;
+    width: 200px;
+    border-radius: 50px;
+  }
+  .name p{
+    margin-top: -50px;
+    font-size: 35px;
+    color: rgb(255, 237, 149);
+    font-family: "Satisfy", cursive;
+  }
+  .content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* background-color: #fff7f7; */
+    /* height: 240px;
+    width: 500px;
+    border-radius: 10px; */
+    /* box-shadow: 1px 1px 1px 1px maroon; */
+  }
+  .content p{
+    font-size: 25px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+  }
+  
+  .content2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+  }
+  .content2 p{
+    font-family: "Satisfy", cursive;
+    color: maroon;
+  }
+  
+  .content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .content3 h3{
+    font-size: 25px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    font-weight: 400px;
+  }
+  .content3 p{
+    font-family: "Satisfy", cursive;
+  }
+  
+  /* venue */
+  .Venue {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .Venue h3{
+    font-size: 28px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    font-weight: 400px;
+  }
+  .Venue p{
+    font-size: 20px;
+    color: rgb(119, 5, 5);
+    font-family: "Satisfy", cursive;
+  }
+  .borderline img{
+    margin-top: -80px;
+    height: 20px;
+    width: 200px;
+  }
+  
+  
+  /* Location */
+  .Location_Container{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #dedede;
+    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+    box-shadow: 5px 8px 6px 0px black;
+   
+  }
+  .Location_Container h4{
+    margin-top: -90px;
+    font-size: 25px;
+    color: maroon;
+    font-family: "Play", sans-serif;
+  }
+  .Location{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+  }
+  .Location iframe{
+    height: 350px;
+    width: 340px;
+    border-radius: 5px;
+   
+  }
+  .Button{
+    height: 50px;
+    width: 510px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .Button a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Gallery Container */
+  .Gallery_Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 8px 6px 0px black;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    background: #dedede;
+    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  .Gallery{
+    margin-top: 70px;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+       -webkit-column-width:20% ;
+       -moz-column-width: 13%;
+      column-width: 13%;
+      padding: 0 12px;
+  }
+  .Gallery_Container h4{
+    margin-top: 70px;
+    font-size: 30px;
+  }
+  .BRGR_images img{
+    height: 180px;
+    width: 150px;
+    border:  2px solid maroon
+    
+  }
+  .BRGR_images .active img{
+    border: 4px solid green;
+  }
+  
+  /* Contacts */
+  
+  .wish{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+  padding: 80px;
+  font-size: 20px;
+  color: rgb(93, 5, 5);
+  box-shadow: 5px 8px 0px 0px black;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 30px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 35px;
+  }
+  
+  .details_1{
+    width: 100%;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 100px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
+    font-size: 25px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 p{
+    font-size: 15px;
+   
+  }
+  .details_1 a{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(93, 5, 5);
+    border-radius: 5px;
+    color: rgb(93, 5, 5);
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  
+  }
+  }
+  
 
 
 /* Extra Small Devices (portrait phones, less than 360px) */
-@media (max-width: 359px) {
+@media (max-width: 375px) {
   
 /* Home Page */
 .HomePage{
   margin-top: -40px;
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
   justify-content: center;
   background: #ffc0ec;
   background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
@@ -436,7 +843,8 @@ color: wheat;
 /* Intro Container */
 .Intro_Container{
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -448,23 +856,22 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   box-shadow: 2px 2px 6px 6px  black;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
 }
 
 .Flower_decors img{
-  height: 150px;
-  width: 280px;
+  margin-top: 90px;
+  height: 100px;
+  width: 250px;
   
 
 }
 .sideWall img{
- margin-top: -220px;
+  margin-top: -170px;
   height: 500px;
-  width: 380px;
+  width: 360px;
 }
 
 .details{
@@ -472,64 +879,54 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:10px;
-  padding-right: 260px;
+  width: 100%;
+  gap: 20px;
 }
 .details h2{
-  width: 200px;
-  margin-top: -250px;
-  font-size: 24px;
+  margin-top: -350px;
+  font-size: 28px;
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
   color: maroon;
-  padding-left: 10px;
-
-  
-
 }
 .details h3{
-  width: 200px;
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(119, 5, 5);
   font-family: "Play", sans-serif;
 }
 .details p{
-  width: 200px;
   font-size: 18px;
   margin-top: 20px;
   font-family: "Play", sans-serif;
-  padding-left: 16px;
-}
-.Garden{
-  margin-top: 250px;
 }
 .Garden img{
-  margin-top: 100px;
-  height: 320px;
-  width: 20px;
+  margin-top: -20px;
+  height: 220px;
+  width: 400px;
 }
 .Girl_Swing{
-  margin-top: -340px;
+  margin-top: -308px;
 }
 .Girl_Swing img{
-  height: 370px;
-  padding-left: 40px;
+  margin-top: 25px;
+  height: 300px;
+  padding-left: 90px;
 
 }
 .Frame{
-  margin-top: -280px;
+  margin-top: -70px;
 }
 .Frame img{
-  margin-top: -70px;
-  height: 280px;
+  margin-top: -970px;
+  height: 250px;
   padding-right: 40px;
   padding-left: 40px;
 }
 
 /* Details Page */
 .Details_Container{
-  margin-top: -92px;
+  margin-top: -12px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -543,24 +940,24 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   flex-direction: column;
   align-items: center;
   height: 180vh;
-  width: 100%;
+  width: 100vw;
   box-shadow: 2px 2px 6px 5px  black;
 }
 .Bell{
-  margin-top: 90px;
+  margin-top: 50px;
 }
 .Bell img{
-  margin-top: 50px;
+  margin-top: 00px;
   height: 200px;
-  width: 400px;
+  width: 300px;
 }
 .Flower_bg{
-  margin-top: -300px;
+  margin-top: -200px;
 }
 .Flower_bg img{
   margin-top: -60px;
-  height: 500px;
-  width: 720px;
+  height: 400px;
+  width: 420px;
 }
 .Girl_Img{
   margin-top: -100px;
@@ -599,7 +996,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   /* box-shadow: 1px 1px 1px 1px maroon; */
 }
 .content p{
-  font-size: 28px;
+  font-size: 25px;
   color:maroon;
   font-family: "Play", sans-serif;
 }
@@ -624,7 +1021,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   gap: 20px;
 }
 .content3 h3{
-  font-size: 28px;
+  font-size: 25px;
   color:maroon;
   font-family: "Play", sans-serif;
   font-weight: 400px;
@@ -663,7 +1060,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 /* Location */
 .Location_Container{
   height: 100%;
-  width: 50%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -684,17 +1081,17 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
  flex-direction: column;
  align-items: center;
  justify-content: center;
- border: 5px solid maroon;
  border-radius: 5px;
 }
 .Location iframe{
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 340px;
   border-radius: 5px;
+ 
 }
 .Button{
   height: 50px;
-  width: 520px;
+  width: 510px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -709,8 +1106,8 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 /* Gallery Container */
 .Gallery_Container{
-  height: 50vh;
-  width: 50vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -722,9 +1119,9 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 }
 .Gallery{
   margin-top: 70px;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
      -webkit-column-width:20% ;
      -moz-column-width: 13%;
     column-width: 13%;
@@ -735,8 +1132,8 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   font-size: 30px;
 }
 .BRGR_images img{
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 150px;
   border:  2px solid maroon
   
 }
@@ -747,18 +1144,17 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 /* Contacts */
 
 .wish{
-  margin-top: 30px;
+  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
+  width: 100vw;
+  padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
   font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
 
 }
 
@@ -768,10 +1164,10 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:50vh;
-  width: 50vw;
+  height: 60vh;
+  width: 100vw;
 padding: 80px;
-font-size: 16px;
+font-size: 20px;
 color: rgb(93, 5, 5);
 box-shadow: 5px 8px 0px 0px black;
 background: #dedede;
@@ -784,2091 +1180,65 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 }
 .network img{
-  height: 34px;
+  height: 30px;
 }
 .network .whatsapp img{
   margin-top: -2px;
-  height: 37px;
+  height: 35px;
 }
 
 .details_1{
   width: 100%;
-  margin-top: -50px;
+  margin-top: -80px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-right: 130px;
-  font-size: 16px;
-
+  margin-right: 100px;
 }
 .details_1 .p1{
   margin-top: 110px;
-  font-size: 23px;
+  font-size: 25px;
   font-family: "Satisfy", cursive;
 }
+.details_1 p{
+  font-size: 15px;
+ 
+}
 .details_1 a{
-  height: 30px;
-  width: 70%;
+  height: 40px;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid rgb(93, 5, 5);
   border-radius: 5px;
   color: rgb(93, 5, 5);
-  padding: 20px;
+  padding: 10px;
+  font-size: 16px;
   text-decoration: none;
-  font-size: 18px;
   
 }
 .details_1 a:hover{
 background: rgb(93, 5, 5);
 color: wheat;
 
-}  
-  /* Intro Container */
-  .Intro_Container{
-    height: 120vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  .Intro_Page {
-    height: 110vh;
-    width: 100%;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  .Intro_Page video{
-    height: 110vh;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  
-  /* Hall */
-  .Hall{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Hall img{
-    margin-top: -700px;
-    height: 450px;
-    width: 550px;
-    padding-right: 40px;
-  }
-  
-  /* Road */
-  .Road{
-    margin-top: -10px;
-  }
-  .Road img{
-    margin-top: -380px;
-    height: 200px;
-    width: 430px;
-  
-  }
-  
-  
-  /* BR GR */
-  .BRGR{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .BRGR img{
-    margin-top: -490PX;
-    height: 300px;
-    width: 200px;
-    margin-left: 100px;
-  }
-  /* Tree */
-  .Tree{
-    width: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Tree img{
-    margin-top: -680px;
-  height: 300px;
-  width: 360px;
-  }
-  
-  /* Garden */
-  .Garden{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .Garden img{
-    margin-top: -240px;
-    height: 300px;
-    width: 880px;
-    padding-right: 10px;
-  }
-  
-  /* Names */
-  .Names{
-    margin-top: -730px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    font-size: 15px;
-    color:white;
-  }
-  .Names h2{
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 2px black;
-    background: #2A7B9B;
-  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-  }
-  
-  /* Bride Container */
-  .Bride_Container{
-    margin-top: -80px;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Bride_Container h2{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-  }
-  .Bride_page{
-    margin-top: 50px;
-    height: 250px;
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Bride_page img{
-    margin-top: -30px;
-    height: 250px;
-    width: 230px;
-    border-top-left-radius: 50px;
-  }
-  .Bride_details{
-    margin-top: 20px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Bride_details h3{
-    padding-left: 30px;
-    font-size: 25px;
-  }
-  .Bride_details p{
-    color: white;
-    width: 300%;
-    margin-bottom: 20px;
-  }
-  
-  /* Groom Container */
-  .Groom_Container{
-    margin-top: -125px;
-    height: 130vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Groom_Container h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-  }
-  .Groom_page{
-    height: 250px;
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Groom_page img{
-    margin-top: -30px;
-    height: 250px;
-    width: 230px;
-    border-top-left-radius: 50px;
-  }
-  .Groom_details{
-    margin-top: 20px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Groom_details h3{
-    padding-left: 20px;
-    font-size: 25px;
-  }
-  .Groom_details p{
-    color: white;
-    width: 300%;
-    margin-bottom: 15px;
-  }
-  .social{
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .social img{
-    height: 35px;
-    width: 35px; 
-  }
-  
-  
-  /* Gallery Container */
-  .Gallery_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  
-  }
-  .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
-  }
-  .Gallery_Container h4{
-    margin-top: 70px;
-    font-size: 30px;
-  }
-  .BRGR_images img{
-    height: 150px;
-    width: 150px;
-    border:  2px solid green
-    
-  }
-  .BRGR_images .active img{
-    border: 4px solid green;
-  }
-  
-  /* Location */
-  .Location_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-    
-   box-shadow: 5px 8px 6px 0px black;
-  }
-  .Location_Container h4{
-    margin-top: 20px;
-    font-size: 25px;
-  }
-  .Location{
-    margin-top: 50px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 5px solid #FDBB2D;
-   border-radius: 5px;
-  }
-  .Location iframe{
-    height: 430px;
-    width: 330px;
-    border-radius: 5px;
-  }
-  .Button{
-    height: 50px;
-    width: 330px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-  }
-  .Button a{
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
-  
-  /* Contacts */
-
-  .wish{
-    margin-top: -20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 200%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-family: "Bodoni Moda", serif;
-    font-size: 18px;
-  
-  }
-  
-  .social_Share{
-    margin-top: -30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    width: 100%;
-  padding: 80px;
-  font-size: 20px;
-  color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .network{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-  .network img{
-    height: 34px;
-  }
-  .network .whatsapp img{
-    margin-top: -2px;
-    height: 37px;
-  }
-  
-  .details{
-    margin-top: -50px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 300px;
-    font-size: 15px;
-  }
-  .details .p1{
-    margin-top: 100px;
-    font-size: 22px;
-    font-family: "Satisfy", cursive;
-  }
-  .details a{
-    height: 40px;
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(93, 5, 5);
-    border-radius: 5px;
-    color: rgb(93, 5, 5);
-    padding: 10px;
-    text-decoration: none;
-    
-  }
-  .details a:hover{
-  background: rgb(93, 5, 5);
-  color: wheat;
-  
-  }
-  
 }
-
+}
 /* Small Devices (phones, 360px to 479px) */
-@media (min-width: 360px) and (max-width: 479px) {
-  
- 
-/* Home Page */
-.HomePage{
-  margin-top: -40px;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  justify-content: center;
-  background: #ffc0ec;
-  background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
-
-}
-.Boreder{
-  margin-top: -20px;
-  box-shadow: 2px 2px 6px 6px  black;
-}
-
-/* Intro Container */
-.Intro_Container{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #dedede;
-background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-}
-
-.Intro_Page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 80vh;
-  width: 100%;
-  box-shadow: 2px 2px 6px 6px  black;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-}
-
-.Flower_decors img{
-  height: 150px;
-  width: 280px;
-  
-
-}
-.sideWall img{
- margin-top: -220px;
-  height: 500px;
-  width: 380px;
-}
-
-.details{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap:10px;
-  padding-right: 260px;
-}
-.details h2{
-  width: 200px;
-  margin-top: -250px;
-  font-size: 24px;
-  font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: maroon;
-  padding-left: 10px;
-
-  
-
-}
-.details h3{
-  width: 200px;
-  font-size: 18px;
-  color: rgb(119, 5, 5);
-  font-family: "Play", sans-serif;
-}
-.details p{
-  width: 200px;
-  font-size: 18px;
-  margin-top: 20px;
-  font-family: "Play", sans-serif;
-  padding-left: 16px;
-}
-.Garden{
-  margin-top: 250px;
-}
-.Garden img{
-  margin-top: 100px;
-  height: 320px;
-  width: 20px;
-}
-.Girl_Swing{
-  margin-top: -340px;
-}
-.Girl_Swing img{
-  height: 370px;
-  padding-left: 40px;
-
-}
-.Frame{
-  margin-top: -280px;
-}
-.Frame img{
-  margin-top: -70px;
-  height: 280px;
-  padding-right: 40px;
-  padding-left: 40px;
-}
-
-/* Details Page */
-.Details_Container{
-  margin-top: -92px;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #dedede;
-background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-}
-.Details_Page{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 180vh;
-  width: 100%;
-  box-shadow: 2px 2px 6px 5px  black;
-}
-.Bell{
-  margin-top: 90px;
-}
-.Bell img{
-  margin-top: 50px;
-  height: 200px;
-  width: 400px;
-}
-.Flower_bg{
-  margin-top: -300px;
-}
-.Flower_bg img{
-  margin-top: -60px;
-  height: 500px;
-  width: 720px;
-}
-.Girl_Img{
-  margin-top: -100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  width: 250px;
-  background-color: rgb(241, 185, 88);
-  border-radius: 50px;
-  box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
-}
-.Girl_Img img{
-  margin-top:-100px;
-  height: 250px;
-  width: 200px;
-  border-radius: 50px;
-}
-.name p{
-  margin-top: -50px;
-  font-size: 35px;
-  color: rgb(255, 237, 149);
-  font-family: "Satisfy", cursive;
-}
-.content {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  /* background-color: #fff7f7; */
-  /* height: 240px;
-  width: 500px;
-  border-radius: 10px; */
-  /* box-shadow: 1px 1px 1px 1px maroon; */
-}
-.content p{
-  font-size: 28px;
-  color:maroon;
-  font-family: "Play", sans-serif;
-}
-
-.content2 {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- gap: 10px;
-}
-.content2 p{
-  font-family: "Satisfy", cursive;
-  color: maroon;
-}
-
-.content3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.content3 h3{
-  font-size: 28px;
-  color:maroon;
-  font-family: "Play", sans-serif;
-  font-weight: 400px;
-}
-.content3 p{
-  font-family: "Satisfy", cursive;
-}
-
-/* venue */
-.Venue {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-}
-.Venue h3{
-  font-size: 28px;
-  color:maroon;
-  font-family: "Play", sans-serif;
-  font-weight: 400px;
-}
-.Venue p{
-  font-size: 20px;
-  color: rgb(119, 5, 5);
-  font-family: "Satisfy", cursive;
-}
-.borderline img{
-  margin-top: -80px;
-  height: 20px;
-  width: 200px;
-}
-
-
-/* Location */
-.Location_Container{
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  box-shadow: 5px 8px 6px 0px black;
- 
-}
-.Location_Container h4{
-  margin-top: -90px;
-  font-size: 25px;
-  color: maroon;
-  font-family: "Play", sans-serif;
-}
-.Location{
-  margin-top: 50px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- border: 5px solid maroon;
- border-radius: 5px;
-}
-.Location iframe{
-  height: 500px;
-  width: 500px;
-  border-radius: 5px;
-}
-.Button{
-  height: 50px;
-  width: 520px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-}
-.Button a{
-  color: black;
-  background-color: white;
-  text-decoration: none;
-}
-
-/* Gallery Container */
-.Gallery_Container{
-  height: 50vh;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 5px 8px 6px 0px black;
-  color:maroon;
-  font-family: "Play", sans-serif;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-}
-.Gallery{
-  margin-top: 70px;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-     -webkit-column-width:20% ;
-     -moz-column-width: 13%;
-    column-width: 13%;
-    padding: 0 12px;
-}
-.Gallery_Container h4{
-  margin-top: 70px;
-  font-size: 30px;
-}
-.BRGR_images img{
-  height: 200px;
-  width: 200px;
-  border:  2px solid maroon
-  
-}
-.BRGR_images .active img{
-  border: 4px solid green;
-}
-
-/* Contacts */
-
-.wish{
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  font-family: "Bodoni Moda", serif;
-
-}
-
-.social_Share{
-  margin-top: -30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height:50vh;
-  width: 50vw;
-padding: 80px;
-font-size: 16px;
-color: rgb(93, 5, 5);
-box-shadow: 5px 8px 0px 0px black;
-background: #dedede;
-background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-
-}
-.network{
-  margin-top: 10px;
-  display: flex;
-
-}
-.network img{
-  height: 34px;
-}
-.network .whatsapp img{
-  margin-top: -2px;
-  height: 37px;
-}
-
-.details_1{
-  width: 100%;
-  margin-top: -50px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-right: 130px;
-  font-size: 16px;
-
-}
-.details_1 .p1{
-  margin-top: 110px;
-  font-size: 23px;
-  font-family: "Satisfy", cursive;
-}
-.details_1 a{
-  height: 30px;
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgb(93, 5, 5);
-  border-radius: 5px;
-  color: rgb(93, 5, 5);
-  padding: 20px;
-  text-decoration: none;
-  font-size: 18px;
-  
-}
-.details_1 a:hover{
-background: rgb(93, 5, 5);
-color: wheat;
-
-}  
-  /* Intro Container */
-  .Intro_Container{
-    height: 120vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  .Intro_Page {
-    height: 110vh;
-    width: 100%;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  .Intro_Page video{
-    height: 110vh;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  
-  /* Hall */
-  .Hall{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Hall img{
-    margin-top: -700px;
-    height: 450px;
-    width: 550px;
-    padding-right: 40px;
-  }
-  
-  /* Road */
-  .Road{
-    margin-top: -10px;
-  }
-  .Road img{
-    margin-top: -380px;
-    height: 200px;
-    width: 430px;
-  
-  }
-  
-  
-  /* BR GR */
-  .BRGR{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .BRGR img{
-    margin-top: -490PX;
-    height: 300px;
-    width: 200px;
-    margin-left: 100px;
-  }
-  /* Tree */
-  .Tree{
-    width: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Tree img{
-    margin-top: -680px;
-  height: 300px;
-  width: 360px;
-  }
-  
-  /* Garden */
-  .Garden{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .Garden img{
-    margin-top: -240px;
-    height: 300px;
-    width: 880px;
-    padding-right: 10px;
-  }
-  
-  /* Names */
-  .Names{
-    margin-top: -730px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    font-size: 15px;
-    color:white;
-  }
-  .Names h2{
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 2px black;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  /* Bride Container */
-  .Bride_Container{
-    margin-top: -80px;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Bride_Container h2{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-  }
-  .Bride_page{
-    margin-top: 50px;
-    height: 250px;
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Bride_page img{
-    margin-top: -30px;
-    height: 250px;
-    width: 230px;
-    border-top-left-radius: 50px;
-  }
-  .Bride_details{
-    margin-top: 20px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Bride_details h3{
-    padding-left: 30px;
-    font-size: 25px;
-  }
-  .Bride_details p{
-    color: white;
-    width: 300%;
-    margin-bottom: 20px;
-  }
-  
-  /* Groom Container */
-  .Groom_Container{
-    margin-top: -125px;
-    height: 130vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Groom_Container h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-  }
-  .Groom_page{
-    height: 250px;
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Groom_page img{
-    margin-top: -30px;
-    height: 250px;
-    width: 230px;
-    border-top-left-radius: 50px;
-  }
-  .Groom_details{
-    margin-top: 20px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Groom_details h3{
-    padding-left: 20px;
-    font-size: 25px;
-  }
-  .Groom_details p{
-    color: white;
-    width: 300%;
-    margin-bottom: 15px;
-  }
-  .social{
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .social img{
-    height: 35px;
-    width: 35px; 
-  }
-  
-  
-  /* Gallery Container */
-  .Gallery_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
-  }
-  .Gallery_Container h4{
-    margin-top: 70px;
-    font-size: 30px;
-  }
-  .BRGR_images img{
-    height: 150px;
-    width: 150px;
-    border:  2px solid green
-    
-  }
-  .BRGR_images .active img{
-    border: 4px solid green;
-  }
-  
-  /* Location */
-  .Location_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-    
-   box-shadow: 5px 8px 6px 0px black;
-  }
-  .Location_Container h4{
-    margin-top: 20px;
-    font-size: 25px;
-  }
-  .Location{
-    margin-top: 50px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 5px solid #FDBB2D;
-   border-radius: 5px;
-  }
-  .Location iframe{
-    height: 430px;
-    width: 330px;
-    border-radius: 5px;
-  }
-  .Button{
-    height: 50px;
-    width: 330px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-  }
-  .Button a{
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
-  
-  /* Contacts */
-
-  .wish{
-    margin-top: -20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-family: "Bodoni Moda", serif;
-    font-size: 18px;
-  
-  }
-  
-  .social_Share{
-    margin-top: -30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    width: 100%;
-  padding: 80px;
-  font-size: 20px;
-  color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .network{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-  .network img{
-    height: 34px;
-  }
-  .network .whatsapp img{
-    margin-top: -2px;
-    height: 37px;
-  }
-  
-  .details{
-    margin-top: -50px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 300px;
-    font-size: 15px;
-  }
-  .details .p1{
-    margin-top: 100px;
-    font-size: 22px;
-    font-family: "Satisfy", cursive;
-  }
-  .details a{
-    height: 40px;
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(93, 5, 5);
-    border-radius: 5px;
-    color: rgb(93, 5, 5);
-    padding: 10px;
-    text-decoration: none;
-    
-  }
-  .details a:hover{
-  background: rgb(93, 5, 5);
-  color: wheat;
-  
-  }
-  
-}
-
-/* Large Tablets to Laptops (768px to 1024px) */
-@media (min-width: 768px) and (max-width: 1020px) {
-  .HomePage{
-    margin-top: -40px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Boreder{
-    margin-top: -20px;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  
-  /* Intro Container */
-  .Intro_Container{
-    height: 80vh;
-    width: 100%;
-    margin-bottom: 290px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  .Intro_Page {
-    height: 110vh;
-    width: 100%;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  .Intro_Page video{
-    height: 110vh;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  
-  /* Hall */
-  .Hall{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Hall img{
-    margin-top: -900px;
-    height: 850px;
-    width: 980px;
-    padding-right: 10px;
-  }
-  
-  /* Road */
-  .Road{
-    margin-top: 20px;
-  }
-  .Road img{
-    margin-top: -380px;
-    height: 300px;
-    width: 960px;
-  
-  }
-  
-  
-  /* BR GR */
-  .BRGR{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .BRGR img{
-    margin-top: -690PX;
-    height: 400px;
-    width: 300px;
-    margin-left: 100px;
-  }
-  /* Tree */
-  .Tree{
-    width: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Tree img{
-    margin-top: -980px;
-  height: 550px;
-  width: 500px;
-  }
-  
-  /* Garden */
-  .Garden{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .Garden img{
-    margin-top: -440px;
-    height: 600px;
-    width: 1050px;
-    padding-right: 10px;
-  }
-  
-  /* Names */
-  .Names{
-    margin-top: -1380px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    font-size: 25px;
-    color:white;
-  }
-  .Names h2{
-    font-family: "Dancing Script", cursive;
-    font-size: 40px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 2px black;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  /* Bride Container */
-  .Bride_Container{
-    margin-top: -50px;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Bride_Container h2{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-  }
-  .Bride_page{
-    margin-top: 50px;
-    height: 480px;
-    width: 490px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Bride_page img{
-    margin-top: -30px;
-    height: 450px;
-    width: 430px;
-    border-top-left-radius: 50px;
-  }
-  .Bride_details{
-    margin-top: 50px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Bride_details h3{
-    padding-left: 30px;
-    font-size: 45px;
-  }
-  .Bride_details p{
-    color: white;
-    width: 600%;
-    margin-bottom: 20px;
-    font-size: 25px;
-  }
-  
-  /* Groom Container */
-  .Groom_Container{
-    margin-top: -150px;
-    height: 150vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Groom_Container h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-  }
-  .Groom_page{
-    height: 480px;
-    width: 490px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Groom_page img{
-    margin-top: -30px;
-    height: 450px;
-    width: 430px;
-    border-top-left-radius: 50px;
-  }
-  .Groom_details{
-    margin-top: 20px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Groom_details h3{
-    margin-top: 30px;
-    padding-left: 20px;
-    font-size: 45px;
-  }
-  .Groom_details p{
-    color: white;
-    width: 600%;
-    margin-bottom: 15px;
-    font-size: 25px;
-  }
-  .social{
-    width: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .social img{
-    height: 55px;
-    width: 55px; 
-  }
-  
-  
-  /* Gallery Container */
-  .Gallery_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-      column-count: 3;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
-  }
-  .Gallery_Container h4{
-    margin-top: 70px;
-    font-size: 45px;
-  }
-  .BRGR_images img{
-    height: 240px;
-    width: 220px;
-    border:  2px solid green
-    
-  }
-  .BRGR_images .active img{
-    border: 4px solid green;
-  }
-  
-  /* Location */
-  .Location_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-   box-shadow: 5px 8px 6px 0px black;
-  }
-  .Location_Container h4{
-    margin-top: -30px;
-    font-size: 45px;
-  }
-  .Location{
-    margin-top: 50px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 5px solid #FDBB2D;
-   border-radius: 5px;
-  }
-  .Location iframe{
-    height: 630px;
-    width: 690px;
-    border-radius: 5px;
-  }
-  .Button{
-    height: 80px;
-    width: 689px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    font-size: 25px;
-  }
-  .Button a{
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
-  
-  /* Contacts */
-
-  .wish{
-    margin-top: -180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 130%;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-family: "Bodoni Moda", serif;
-    font-size: 25px;
-  
-  }
-  
-  .social_Share{
-    margin-top: -30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    width: 100%;
-  padding: 80px;
-  font-size: 30px;
-  color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .network{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-  .network img{
-    height: 54px;
-  }
-  .network .whatsapp img{
-    margin-top: -2px;
-    height: 59px;
-  }
-  
-  .details{
-    margin-top: -20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 300px;
-    font-size: 25px;
-  }
-  .details .p1{
-    margin-top: 100px;
-    font-size: 42px;
-    font-family: "Satisfy", cursive;
-  }
-  .details a{
-    height: 40px;
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(93, 5, 5);
-    border-radius: 5px;
-    color: rgb(93, 5, 5);
-    padding: 20px;
-    text-decoration: none;
-    
-  }
-  .details a:hover{
-  background: rgb(93, 5, 5);
-  color: wheat;
-  
-  }
-
-}
-
-
-/* Large Devices (desktops, 1025px and up) */
-@media (min-width: 1024px) and (max-width:1366px){
-  .HomePage{
-    margin-top: -40px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Boreder{
-    margin-top: -20px;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  
-  /* Intro Container */
-  .Intro_Container{
-    height: 80vh;
-    width: 100%;
-    margin-bottom: 290px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  .Intro_Page {
-    height: 110vh;
-    width: 100%;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  .Intro_Page video{
-    height: 110vh;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  
-  /* Hall */
-  .Hall{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Hall img{
-    margin-top: -700px;
-    height: 750px;
-    width: 880px;
-    padding-right: 10px;
-  }
-  
-  /* Road */
-  .Road{
-    margin-top: -10px;
-  }
-  .Road img{
-    margin-top: -380px;
-    height: 200px;
-    width: 960px;
-  
-  }
-  
-  
-  /* BR GR */
-  .BRGR{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .BRGR img{
-    margin-top: -490PX;
-    height: 400px;
-    width: 300px;
-    margin-left: 100px;
-  }
-  /* Tree */
-  .Tree{
-    width: 150%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Tree img{
-    margin-top: -680px;
-  height: 550px;
-  width: 500px;
-  }
-  
-  /* Garden */
-  .Garden{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .Garden img{
-    margin-top: -340px;
-    height: 500px;
-    width: 1450px;
-    padding-right: 10px;
-  }
-  
-  /* Names */
-  .Names{
-    margin-top: -1080px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    font-size: 25px;
-    color:white;
-  }
-  .Names h2{
-    font-family: "Dancing Script", cursive;
-    font-size: 40px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 2px black;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  /* Bride Container */
-  .Bride_Container{
-    margin-top: -50px;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Bride_Container h2{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-  }
-  .Bride_page{
-    margin-top: 50px;
-    height: 480px;
-    width: 490px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Bride_page img{
-    margin-top: -30px;
-    height: 450px;
-    width: 430px;
-    border-top-left-radius: 50px;
-  }
-  .Bride_details{
-    margin-top: 50px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Bride_details h3{
-    padding-left: 30px;
-    font-size: 45px;
-  }
-  .Bride_details p{
-    color: white;
-    width: 600%;
-    margin-bottom: 20px;
-    font-size: 25px;
-  }
-  
-  /* Groom Container */
-  .Groom_Container{
-    margin-top: -150px;
-    height: 150vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    padding-right: 70px;
-  }
-  .Groom_Container h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-  }
-  .Groom_page{
-    height: 480px;
-    width: 490px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top-left-radius: 50px;
-    gap: 30px;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Groom_page img{
-    margin-top: -30px;
-    height: 450px;
-    width: 430px;
-    border-top-left-radius: 50px;
-  }
-  .Groom_details{
-    margin-top: 20px;
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  .Groom_details h3{
-    margin-top: 30px;
-    padding-left: 20px;
-    font-size: 45px;
-  }
-  .Groom_details p{
-    color: white;
-    width: 600%;
-    margin-bottom: 15px;
-    font-size: 25px;
-  }
-  .social{
-    width: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .social img{
-    height: 55px;
-    width: 55px; 
-  }
-  
-  
-  /* Gallery Container */
-  .Gallery_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-      column-count: 3;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
-  }
-  .Gallery_Container h4{
-    margin-top: 70px;
-    font-size: 45px;
-  }
-  .BRGR_images img{
-    height: 240px;
-    width: 220px;
-    border:  2px solid green
-    
-  }
-  .BRGR_images .active img{
-    border: 4px solid green;
-  }
-  
-  /* Location */
-  .Location_Container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-   box-shadow: 5px 8px 6px 0px black;
-  }
-  .Location_Container h4{
-    margin-top: -30px;
-    font-size: 45px;
-  }
-  .Location{
-    margin-top: 50px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 5px solid #FDBB2D;
-   border-radius: 5px;
-  }
-  .Location iframe{
-    height: 630px;
-    width: 690px;
-    border-radius: 5px;
-  }
-  .Button{
-    height: 80px;
-    width: 689px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    font-size: 25px;
-  }
-  .Button a{
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
-  
-  /* Contacts */
-
-  .wish{
-    margin-top: -180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 130%;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-family: "Bodoni Moda", serif;
-    font-size: 25px;
-  
-  }
-  
-  .social_Share{
-    margin-top: -30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    width: 100%;
-  padding: 80px;
-  font-size: 30px;
-  color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
-  background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .network{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-  .network img{
-    height: 54px;
-  }
-  .network .whatsapp img{
-    margin-top: -2px;
-    height: 59px;
-  }
-  
-  .details{
-    margin-top: -20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 300px;
-    font-size: 25px;
-  }
-  .details .p1{
-    margin-top: 100px;
-    font-size: 42px;
-    font-family: "Satisfy", cursive;
-  }
-  .details a{
-    height: 40px;
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(93, 5, 5);
-    border-radius: 5px;
-    color: rgb(93, 5, 5);
-    padding: 20px;
-    text-decoration: none;
-    
-  }
-  .details a:hover{
-  background: rgb(93, 5, 5);
-  color: wheat;
-  
-  }
-
-}
-
-
-/* Large Devices (desktops, 1250px and up) */
-@media (min-width: 1250px) and (max-width : 1400px) {
+@media (min-width: 380px) and (max-width: 400px) {
   /* Home Page */
 .HomePage{
   margin-top: -40px;
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  background: #ffc0ec;
+  background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+
 }
 .Boreder{
   margin-top: -20px;
@@ -2877,245 +1247,1095 @@ color: wheat;
 
 /* Intro Container */
 .Intro_Container{
-  height: 120vh;
-  width: 100%;
-  margin-bottom: -5px;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
 }
 
 .Intro_Page {
-  height: 110vh;
-  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
   box-shadow: 2px 2px 6px 6px  black;
 }
-.Intro_Page video{
-  height: 110vh;
-  width: 50vw;
-  object-fit: cover;
-}
 
+.Flower_decors img{
+  margin-top: 90px;
+  height: 100px;
+  width: 250px;
+  
 
-/* Hall */
-.Hall{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.Hall img{
-  margin-top: -790px;
+.sideWall img{
+  margin-top: -170px;
   height: 500px;
-  width: 730px;
-  padding-right: 40px;
+  width: 390px;
 }
 
-/* Road */
-.Road{
-  margin-top: -10px;
-}
-.Road img{
-  margin-top: -380px;
-  height: 200px;
-  width: 619px;
-
-}
-
-
-/* BR GR */
-.BRGR{
+.details{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  gap: 20px;
 }
-.BRGR img{
-  margin-top: -490PX;
+.details h2{
+  margin-top: -350px;
+  font-size: 28px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: maroon;
+}
+.details h3{
+  font-size: 20px;
+  color: rgb(119, 5, 5);
+  font-family: "Play", sans-serif;
+}
+.details p{
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Play", sans-serif;
+}
+.Garden img{
+  margin-top: 20px;
+  height: 220px;
+  width: 400px;
+}
+.Girl_Swing{
+  margin-top: -308px;
+}
+.Girl_Swing img{
+  margin-top: 25px;
   height: 300px;
-  width: 200px;
-  margin-left: 100px;
+  padding-left: 90px;
+
 }
-/* Tree */
-.Tree{
-  width: 150%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.Frame{
+  margin-top: -70px;
 }
-.Tree img{
-  margin-top: -680px;
-height: 400px;
-width: 460px;
+.Frame img{
+  margin-top: -970px;
+  height: 250px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
-/* Garden */
-.Garden{
+/* Details Page */
+.Details_Container{
+  margin-top: -86px;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
 }
-.Garden img{
-  margin-top: -340px;
-  height: 440px;
-  width: 970px;
-  padding-right: 10px;
-}
-
-/* Names */
-.Names{
-  margin-top: -930px;
+.Details_Page{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  font-size: 18px;
-  color:white;
+  height: 180vh;
+  width: 100vw;
+  box-shadow: 2px 2px 6px 5px  black;
 }
-.Names h2{
-  font-family: "Dancing Script", cursive;
-  font-size: 40px;
-  padding: 10px;
-  box-shadow: 2px 2px 2px 2px black;
+.Bell{
+  margin-top: 50px;
+}
+.Bell img{
+  margin-top: 00px;
+  height: 200px;
+  width: 300px;
+}
+.Flower_bg{
+  margin-top: -200px;
+}
+.Flower_bg img{
+  margin-top: -60px;
+  height: 400px;
+  width: 420px;
+}
+.Girl_Img{
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 250px;
+  background-color: rgb(241, 185, 88);
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+}
+.Girl_Img img{
+  margin-top:-100px;
+  height: 250px;
+  width: 200px;
+  border-radius: 50px;
+}
+.name p{
+  margin-top: -50px;
+  font-size: 35px;
+  color: rgb(255, 237, 149);
+  font-family: "Satisfy", cursive;
+}
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  /* background-color: #fff7f7; */
+  /* height: 240px;
+  width: 500px;
+  border-radius: 10px; */
+  /* box-shadow: 1px 1px 1px 1px maroon; */
+}
+.content p{
+  font-size: 25px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+}
+
+.content2 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+.content2 p{
+  font-family: "Satisfy", cursive;
+  color: maroon;
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.content3 h3{
+  font-size: 25px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.content3 p{
+  font-family: "Satisfy", cursive;
+}
+
+/* venue */
+.Venue {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.Venue h3{
+  font-size: 28px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.Venue p{
+  font-size: 20px;
+  color: rgb(119, 5, 5);
+  font-family: "Satisfy", cursive;
+}
+.borderline img{
+  margin-top: -80px;
+  height: 20px;
+  width: 200px;
+}
+
+
+/* Location */
+.Location_Container{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #dedede;
   background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  box-shadow: 5px 8px 6px 0px black;
+ 
 }
-
-/* Bride Container */
-.Bride_Container{
-  margin-top: -140px;
-  height: 100vh;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  padding-left: 50px;
-  color: white;
-}
-.Bride_Container h2{
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-}
-.Bride_page{
-  margin-top: 50px;
-  height: 300px;
-  width: 280px;
-  display: flex;
-  align-items: center;
-  border-top-left-radius: 50px;
-  margin-left: 10px;
-  gap: 30px;
-  background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-}
-.Bride_page img{
-  margin-top: -30px;
-  height: 300px;
-  width: 250px;
-  border-top-left-radius: 50px;
-}
-.Bride_details{
-  margin-top: 50px;
-  width: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.Bride_details h3{
-  padding-left: 30px;
+.Location_Container h4{
+  margin-top: -90px;
   font-size: 25px;
+  color: maroon;
+  font-family: "Play", sans-serif;
 }
-.Bride_details p{
-  color: white;
-  width: 500%;
-  padding-left: 30px;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-
-/* Groom Container */
-.Groom_Container{
-  margin-top: -180px;
-  height: 150vh;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  padding-left: 50px;
-  color: white;
-}
-.Groom_Container h2{
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-}
-.Groom_page{
+.Location{
   margin-top: 50px;
-  height: 300px;
-  width: 280px;
-  display: flex;
-  align-items: center;
-  border-top-left-radius: 50px;
-  margin-left: 20px;
-  gap: 30px;
-  background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 5px;
 }
-.Groom_page img{
-  margin-top: -30px;
-  height: 300px;
-  width: 250px;
-  border-top-left-radius: 50px;
+.Location iframe{
+  height: 350px;
+  width: 340px;
+  border-radius: 5px;
+ 
 }
-.Groom_details{
-  margin-top: 20px;
-  width: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.Groom_details h3{
-  padding-left: 30px;
-  font-size: 25px;
-}
-.Groom_details p{
-  color: white;
-  width: 500%;
-  padding-left: 30px;
-  margin-bottom: 15px;
-  font-size: 20px;
-}
-.social{
-  width: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.social img{
+.Button{
   height: 50px;
-  width: 52px;
-  
-
+  width: 510px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
-
+.Button a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
 
 /* Gallery Container */
 .Gallery_Container{
   height: 100vh;
-  width: 50vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 5px 8px 6px 0px black;
-  color: white;
+  color:maroon;
+  font-family: "Play", sans-serif;
   background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+.Gallery{
+  margin-top: 70px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+     -webkit-column-width:20% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 12px;
+}
+.Gallery_Container h4{
+  margin-top: 70px;
+  font-size: 30px;
+}
+.BRGR_images img{
+  height: 180px;
+  width: 150px;
+  border:  2px solid maroon
+  
+}
+.BRGR_images .active img{
+  border: 4px solid green;
+}
+
+/* Contacts */
+
+.wish{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+
+}
+
+.social_Share{
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+padding: 80px;
+font-size: 20px;
+color: rgb(93, 5, 5);
+box-shadow: 5px 8px 0px 0px black;
+background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+
+}
+.network{
+  margin-top: 10px;
+  display: flex;
+
+}
+.network img{
+  height: 30px;
+}
+.network .whatsapp img{
+  margin-top: -2px;
+  height: 35px;
+}
+
+.details_1{
+  width: 100%;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 100px;
+}
+.details_1 .p1{
+  margin-top: 110px;
+  font-size: 25px;
+  font-family: "Satisfy", cursive;
+}
+.details_1 p{
+  font-size: 15px;
+ 
+}
+.details_1 a{
+  height: 40px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(93, 5, 5);
+  border-radius: 5px;
+  color: rgb(93, 5, 5);
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+.details_1 a:hover{
+background: rgb(93, 5, 5);
+color: wheat;
+
+}
+  
+}
+/* Small Devices (phones, 360px to 479px) */
+@media (min-width: 400px) and (max-width: 768px) {
+  
+  .HomePage{
+    margin-top: -40px;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffc0ec;
+    background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+  
+  }
+  .Boreder{
+    margin-top: -20px;
+    box-shadow: 2px 2px 6px 6px  black;
+  }
+  
+  /* Intro Container */
+  .Intro_Container{
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  
+  .Intro_Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 2px 2px 6px 6px  black;
+  }
+  
+  .Flower_decors img{
+    margin-top: 90px;
+    height: 100px;
+    width: 270px;
+    
+  
+  }
+  .sideWall img{
+    margin-top: -170px;
+    height: 500px;
+    width: 450px;
+  }
+  
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+  .details h2{
+    margin-top: -350px;
+    font-size: 28px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: maroon;
+  }
+  .details h3{
+    font-size: 20px;
+    color: rgb(119, 5, 5);
+    font-family: "Play", sans-serif;
+  }
+  .details p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Play", sans-serif;
+  }
+  .Garden img{
+    margin-top: 10px;
+    height: 220px;
+    width: 420px;
+  }
+  .Girl_Swing{
+    margin-top: -308px;
+  }
+  .Girl_Swing img{
+    margin-top: 25px;
+    height: 300px;
+    padding-left: 90px;
+  
+  }
+  .Frame{
+    margin-top: -70px;
+  }
+  .Frame img{
+    margin-top: -970px;
+    height: 250px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  /* Details Page */
+  .Details_Container{
+    margin-top: -170px;
+    margin-bottom: -100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  .Details_Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180vh;
+    width: 100vw;
+    box-shadow: 2px 2px 6px 5px  black;
+  }
+  .Bell{
+    margin-top: 50px;
+  }
+  .Bell img{
+    margin-top: 00px;
+    height: 200px;
+    width: 300px;
+  }
+  .Flower_bg{
+    margin-top: -200px;
+  }
+  .Flower_bg img{
+    margin-top: -60px;
+    height: 400px;
+    width: 420px;
+  }
+  .Girl_Img{
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(241, 185, 88);
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+  }
+  .Girl_Img img{
+    margin-top:-100px;
+    height: 250px;
+    width: 200px;
+    border-radius: 50px;
+  }
+  .name p{
+    margin-top: -50px;
+    font-size: 35px;
+    color: rgb(255, 237, 149);
+    font-family: "Satisfy", cursive;
+  }
+  .content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* background-color: #fff7f7; */
+    /* height: 240px;
+    width: 500px;
+    border-radius: 10px; */
+    /* box-shadow: 1px 1px 1px 1px maroon; */
+  }
+  .content p{
+    font-size: 25px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+  }
+  
+  .content2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+  }
+  .content2 p{
+    font-family: "Satisfy", cursive;
+    color: maroon;
+  }
+  
+  .content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .content3 h3{
+    font-size: 25px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    font-weight: 400px;
+  }
+  .content3 p{
+    font-family: "Satisfy", cursive;
+  }
+  
+  /* venue */
+  .Venue {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .Venue h3{
+    font-size: 28px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    font-weight: 400px;
+  }
+  .Venue p{
+    font-size: 20px;
+    color: rgb(119, 5, 5);
+    font-family: "Satisfy", cursive;
+  }
+  .borderline img{
+    margin-top: -80px;
+    height: 20px;
+    width: 200px;
+  }
+  
+  
+  /* Location */
+  .Location_Container{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #dedede;
     background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+    box-shadow: 5px 8px 6px 0px black;
+   
+  }
+  .Location_Container h4{
+    margin-top: -90px;
+    font-size: 25px;
+    color: maroon;
+    font-family: "Play", sans-serif;
+  }
+  .Location{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+  }
+  .Location iframe{
+    height: 350px;
+    width: 340px;
+    border-radius: 5px;
+   
+  }
+  .Button{
+    height: 50px;
+    width: 510px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .Button a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Gallery Container */
+  .Gallery_Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 8px 6px 0px black;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    background: #dedede;
+    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+    margin-bottom: -200px;
+  }
+  .Gallery{
+    margin-top: 70px;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+       -webkit-column-width:20% ;
+       -moz-column-width: 13%;
+      column-width: 13%;
+      padding: 0 12px;
+  }
+  .Gallery_Container h4{
+    margin-top: 70px;
+    font-size: 30px;
+  }
+  .BRGR_images img{
+    height: 180px;
+    width: 150px;
+    border:  2px solid maroon
+    
+  }
+  .BRGR_images .active img{
+    border: 4px solid green;
+  }
+  
+  /* Contacts */
+  
+  .wish{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+  padding: 80px;
+  font-size: 20px;
+  color: rgb(93, 5, 5);
+  box-shadow: 5px 8px 0px 0px black;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 30px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 35px;
+  }
+  
+  .details_1{
+    width: 100%;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 100px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
+    font-size: 25px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 p{
+    font-size: 15px;
+   
+  }
+  .details_1 a{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(93, 5, 5);
+    border-radius: 5px;
+    color: rgb(93, 5, 5);
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  
+  }
+    
+  }
+
+
+/* Large Tablets to Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 800px) {
+ 
+/* Home Page */
+.HomePage{
+  margin-top: -40px;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffc0ec;
+  background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+
+}
+.Boreder{
+  margin-top: -20px;
+  box-shadow: 2px 2px 6px 6px  black;
+}
+
+/* Intro Container */
+.Intro_Container{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+
+.Intro_Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130vh;
+  width: 100vw;
+  box-shadow: 2px 2px 6px 6px  black;
+}
+
+.Flower_decors img{
+  margin-top: 60px;
+  height: 250px;
+  width: 550px;
+  
+
+}
+.sideWall img{
+  margin-top: -330px;
+  height: 700px;
+  width: 780px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.details h2{
+  margin-top: -250px;
+  font-size: 48px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: maroon;
+}
+.details h3{
+  font-size: 23px;
+  color: rgb(119, 5, 5);
+  font-family: "Play", sans-serif;
+}
+.details p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Play", sans-serif;
+}
+.Garden img{
+  margin-top: 80px;
+  height: 420px;
+  width: 820px;
+}
+.Girl_Swing{
+  margin-top: -480px;
+}
+.Girl_Swing img{
+  margin-top: 25px;
+  height: 500px;
+  padding-left: 90px;
+
+}
+.Frame{
+  margin-top: -130px;
+}
+.Frame img{
+  margin-top: -970px;
+  height: 400px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* Details Page */
+.Details_Container{
+  margin-top: -135px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+.Details_Page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180vh;
+  width: 100vw;
+  box-shadow: 2px 2px 6px 5px  black;
+}
+.Bell{
+  margin-top: 50px;
+}
+.Bell img{
+  margin-top: 00px;
+  height: 400px;
+  width: 850px;
+}
+.Flower_bg{
+  margin-top: -400px;
+}
+.Flower_bg img{
+  margin-top: -60px;
+  height: 550px;
+  width: 780px;
+}
+.Girl_Img{
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  width: 350px;
+  background-color: rgb(241, 185, 88);
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+}
+.Girl_Img img{
+  margin-top:-100px;
+  height: 350px;
+  width: 300px;
+  border-radius: 50px;
+}
+.name p{
+  margin-top: -50px;
+  font-size: 50px;
+  color: rgb(255, 237, 149);
+  font-family: "Satisfy", cursive;
+}
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  /* background-color: #fff7f7; */
+  /* height: 240px;
+  width: 500px;
+  border-radius: 10px; */
+  /* box-shadow: 1px 1px 1px 1px maroon; */
+}
+.content p{
+  font-size: 35px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+}
+
+.content2 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+.content2 p{
+  font-family: "Satisfy", cursive;
+  color: maroon;
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.content3 h3{
+  font-size: 35px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.content3 p{
+  font-family: "Satisfy", cursive;
+}
+
+/* venue */
+.Venue {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.Venue h3{
+  font-size: 45px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.Venue p{
+  font-size: 30px;
+  color: rgb(119, 5, 5);
+  font-family: "Satisfy", cursive;
+}
+.borderline img{
+  margin-top: -80px;
+  height: 20px;
+  width: 200px;
+}
+
+
+/* Location */
+.Location_Container{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  box-shadow: 5px 8px 6px 0px black;
+ 
+}
+.Location_Container h4{
+  margin-top: -90px;
+  font-size: 45px;
+  color: maroon;
+  font-family: "Play", sans-serif;
+}
+.Location{
+  margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 5px solid maroon;
+ border-radius: 5px;
+}
+.Location iframe{
+  height: 550px;
+  width: 550px;
+  border-radius: 5px;
+}
+.Button{
+  height: 50px;
+  width: 560px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.Button a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* Gallery Container */
+.Gallery_Container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 8px 6px 0px black;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
 }
 .Gallery{
   margin-top: 70px;
@@ -3129,33 +2349,763 @@ width: 460px;
 }
 .Gallery_Container h4{
   margin-top: 70px;
-  font-size: 30px;
+  font-size: 45px;
 }
 .BRGR_images img{
-  height: 200px;
-  width: 200px;
-  border:  2px solid green
+  height: 250px;
+  width: 220px;
+  border:  2px solid maroon
   
 }
 .BRGR_images .active img{
   border: 4px solid green;
 }
 
-/* Location */
-.Location_Container{
-  height: 100vh;
-  width: 50vw;
+/* Contacts */
+
+.wish{
+  margin-top: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-size: 25px;
+
+}
+
+.social_Share{
+  margin-top: -30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
-  background: #dedede;
+  justify-content: center;
+  height: 50vh;
+  width: 100vw;
+padding: 80px;
+font-size: 25px;
+color: rgb(93, 5, 5);
+box-shadow: 5px 8px 0px 0px black;
+background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+
+}
+.network{
+  margin-top: 10px;
+  display: flex;
+
+}
+.network img{
+  height: 38px;
+}
+.network .whatsapp img{
+  margin-top: -2px;
+  height: 42px;
+}
+
+.details_1{
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 120px;
+}
+.details_1 .p1{
+  margin-top: 110px;
+  font-size: 45px;
+  font-family: "Satisfy", cursive;
+}
+.details_1 p{
+  font-size: 25px;
+}
+.details_1 a{
+  height: 50px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(93, 5, 5);
+  border-radius: 5px;
+  color: rgb(93, 5, 5);
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  
+}
+.details_1 a:hover{
+background: rgb(93, 5, 5);
+color: wheat;
+
+}
+}
+
+
+
+/* 800px and 1020px */
+@media (min-width: 800px) and (max-width: 1020px) {
+ 
+  /* Home Page */
+  .HomePage{
+    margin-top: -40px;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffc0ec;
+    background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+  
+  }
+  .Boreder{
+    margin-top: -20px;
+    box-shadow: 2px 2px 6px 6px  black;
+  }
+  
+  /* Intro Container */
+  .Intro_Container{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  
+  .Intro_Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    width: 100vw;
+    box-shadow: 2px 2px 6px 6px  black;
+  }
+  
+  .Flower_decors img{
+    margin-top: 60px;
+    height: 250px;
+    width: 550px;
+    
+  
+  }
+  .sideWall img{
+    margin-top: -330px;
+    height: 700px;
+    width: 850px;
+  }
+  
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+  .details h2{
+    margin-top: -250px;
+    font-size: 48px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: maroon;
+  }
+  .details h3{
+    font-size: 23px;
+    color: rgb(119, 5, 5);
+    font-family: "Play", sans-serif;
+  }
+  .details p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Play", sans-serif;
+  }
+  .Garden img{
+    margin-top: 80px;
+    height: 420px;
+    width: 820px;
+  }
+  .Girl_Swing{
+    margin-top: -480px;
+  }
+  .Girl_Swing img{
+    margin-top: 25px;
+    height: 500px;
+    padding-left: 90px;
+  
+  }
+  .Frame{
+    margin-top: -130px;
+  }
+  .Frame img{
+    margin-top: -970px;
+    height: 400px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  /* Details Page */
+  .Details_Container{
+    margin-top: -355px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  .Details_Page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180vh;
+    width: 100vw;
+    box-shadow: 2px 2px 6px 5px  black;
+  }
+  .Bell{
+    margin-top: 50px;
+  }
+  .Bell img{
+    margin-top: 00px;
+    height: 400px;
+    width: 850px;
+  }
+  .Flower_bg{
+    margin-top: -400px;
+  }
+  .Flower_bg img{
+    margin-top: -60px;
+    height: 550px;
+    width: 850px;
+  }
+  .Girl_Img{
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 350px;
+    background-color: rgb(241, 185, 88);
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+  }
+  .Girl_Img img{
+    margin-top:-100px;
+    height: 350px;
+    width: 300px;
+    border-radius: 50px;
+  }
+  .name p{
+    margin-top: -50px;
+    font-size: 50px;
+    color: rgb(255, 237, 149);
+    font-family: "Satisfy", cursive;
+  }
+  .content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* background-color: #fff7f7; */
+    /* height: 240px;
+    width: 500px;
+    border-radius: 10px; */
+    /* box-shadow: 1px 1px 1px 1px maroon; */
+  }
+  .content p{
+    font-size: 35px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+  }
+  
+  .content2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+  }
+  .content2 p{
+    font-family: "Satisfy", cursive;
+    color: maroon;
+  }
+  
+  .content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .content3 h3{
+    font-size: 35px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    font-weight: 400px;
+  }
+  .content3 p{
+    font-family: "Satisfy", cursive;
+  }
+  
+  /* venue */
+  .Venue {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .Venue h3{
+    font-size: 45px;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    font-weight: 400px;
+  }
+  .Venue p{
+    font-size: 30px;
+    color: rgb(119, 5, 5);
+    font-family: "Satisfy", cursive;
+  }
+  .borderline img{
+    margin-top: -80px;
+    height: 20px;
+    width: 200px;
+  }
+  
+  
+  /* Location */
+  .Location_Container{
+    margin-top: -300px;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #dedede;
     background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
- box-shadow: 5px 8px 6px 0px black;
+    box-shadow: 5px 8px 6px 0px black;
+   
+  }
+  .Location_Container h4{
+    margin-top: -90px;
+    font-size: 45px;
+    color: maroon;
+    font-family: "Play", sans-serif;
+  }
+  .Location{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid maroon;
+   border-radius: 5px;
+  }
+  .Location iframe{
+    height: 550px;
+    width: 550px;
+    border-radius: 5px;
+  }
+  .Button{
+    height: 50px;
+    width: 560px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .Button a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Gallery Container */
+  .Gallery_Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 8px 6px 0px black;
+    color:maroon;
+    font-family: "Play", sans-serif;
+    background: #dedede;
+    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  }
+  .Gallery{
+    margin-top: 70px;
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+       -webkit-column-width:20% ;
+       -moz-column-width: 13%;
+      column-width: 13%;
+      padding: 0 12px;
+  }
+  .Gallery_Container h4{
+    margin-top: 70px;
+    font-size: 45px;
+  }
+  .BRGR_images img{
+    height: 250px;
+    width: 220px;
+    border:  2px solid maroon
+    
+  }
+  .BRGR_images .active img{
+    border: 4px solid green;
+  }
+  
+  /* Contacts */
+  
+  .wish{
+    margin-top: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+  
+  }
+  
+  .social_Share{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100vw;
+  padding: 80px;
+  font-size: 25px;
+  color: rgb(93, 5, 5);
+  box-shadow: 5px 8px 0px 0px black;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  
+  }
+  .network{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+  .network img{
+    height: 38px;
+  }
+  .network .whatsapp img{
+    margin-top: -2px;
+    height: 42px;
+  }
+  
+  .details_1{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 120px;
+  }
+  .details_1 .p1{
+    margin-top: 110px;
+    font-size: 45px;
+    font-family: "Satisfy", cursive;
+  }
+  .details_1 p{
+    font-size: 25px;
+  }
+  .details_1 a{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(93, 5, 5);
+    border-radius: 5px;
+    color: rgb(93, 5, 5);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+  .details_1 a:hover{
+  background: rgb(93, 5, 5);
+  color: wheat;
+  
+  }
+  }
+
+/* large laptops and Pcs */
+@media (min-width: 1024px) and (max-width:1366px){
+   
+
+/* Home Page */
+.HomePage{
+  margin-top: -40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffc0ec;
+  background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+
+}
+.Boreder{
+  margin-top: -20px;
+  box-shadow: 2px 2px 6px 6px  black;
+}
+
+/* Intro Container */
+.Intro_Container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+
+.Intro_Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130vh;
+  width: 50vw;
+  box-shadow: 2px 2px 6px 6px  black;
+}
+
+.Flower_decors img{
+  margin-top: 60px;
+  height: 250px;
+  width: 550px;
+  
+
+}
+.sideWall img{
+  margin-top: -330px;
+  height: 600px;
+  width: 720px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.details h2{
+  margin-top: -250px;
+  font-size: 48px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: maroon;
+}
+.details h3{
+  font-size: 23px;
+  color: rgb(119, 5, 5);
+  font-family: "Play", sans-serif;
+}
+.details p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Play", sans-serif;
+}
+.Garden img{
+  margin-top: 80px;
+  height: 420px;
+  width: 720px;
+}
+.Girl_Swing{
+  margin-top: -480px;
+}
+.Girl_Swing img{
+  margin-top: 25px;
+  height: 500px;
+  padding-left: 90px;
+
+}
+.Frame{
+  margin-top: -130px;
+}
+.Frame img{
+  margin-top: -970px;
+  height: 400px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* Details Page */
+.Details_Container{
+  margin-top: -15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+.Details_Page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180vh;
+  width: 50vw;
+  box-shadow: 2px 2px 6px 5px  black;
+}
+.Bell{
+  margin-top: 50px;
+}
+.Bell img{
+  margin-top: 00px;
+  height: 400px;
+  width: 800px;
+}
+.Flower_bg{
+  margin-top: -400px;
+}
+.Flower_bg img{
+  margin-top: -60px;
+  height: 500px;
+  width: 720px;
+}
+.Girl_Img{
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 250px;
+  background-color: rgb(241, 185, 88);
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+}
+.Girl_Img img{
+  margin-top:-100px;
+  height: 250px;
+  width: 200px;
+  border-radius: 50px;
+}
+.name p{
+  margin-top: -50px;
+  font-size: 35px;
+  color: rgb(255, 237, 149);
+  font-family: "Satisfy", cursive;
+}
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  /* background-color: #fff7f7; */
+  /* height: 240px;
+  width: 500px;
+  border-radius: 10px; */
+  /* box-shadow: 1px 1px 1px 1px maroon; */
+}
+.content p{
+  font-size: 28px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+}
+
+.content2 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+.content2 p{
+  font-family: "Satisfy", cursive;
+  color: maroon;
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.content3 h3{
+  font-size: 28px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.content3 p{
+  font-family: "Satisfy", cursive;
+}
+
+/* venue */
+.Venue {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.Venue h3{
+  font-size: 28px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.Venue p{
+  font-size: 20px;
+  color: rgb(119, 5, 5);
+  font-family: "Satisfy", cursive;
+}
+.borderline img{
+  margin-top: -80px;
+  height: 20px;
+  width: 200px;
+}
+
+
+/* Location */
+.Location_Container{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  box-shadow: 5px 8px 6px 0px black;
+ 
 }
 .Location_Container h4{
   margin-top: -90px;
   font-size: 25px;
+  color: maroon;
+  font-family: "Play", sans-serif;
 }
 .Location{
   margin-top: 50px;
@@ -3163,7 +3113,7 @@ width: 460px;
  flex-direction: column;
  align-items: center;
  justify-content: center;
- border: 5px solid #FDBB2D;
+ border: 5px solid maroon;
  border-radius: 5px;
 }
 .Location iframe{
@@ -3184,6 +3134,43 @@ width: 460px;
   color: black;
   background-color: white;
   text-decoration: none;
+}
+
+/* Gallery Container */
+.Gallery_Container{
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 8px 6px 0px black;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+.Gallery{
+  margin-top: 70px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:20% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 12px;
+}
+.Gallery_Container h4{
+  margin-top: 70px;
+  font-size: 30px;
+}
+.BRGR_images img{
+  height: 200px;
+  width: 200px;
+  border:  2px solid maroon
+  
+}
+.BRGR_images .active img{
+  border: 4px solid green;
 }
 
 /* Contacts */
@@ -3217,6 +3204,7 @@ color: rgb(93, 5, 5);
 box-shadow: 5px 8px 0px 0px black;
 background: #dedede;
 background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+
 }
 .network{
   margin-top: 10px;
@@ -3231,19 +3219,19 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   height: 37px;
 }
 
-.details{
+.details_1{
   margin-top: -50px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-right: 250px;
 }
-.details .p1{
+.details_1 .p1{
   margin-top: 110px;
   font-size: 35px;
   font-family: "Satisfy", cursive;
 }
-.details a{
+.details_1 a{
   height: 50px;
   width: 50%;
   display: flex;
@@ -3256,11 +3244,9 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   text-decoration: none;
   
 }
-.details a:hover{
+.details_1 a:hover{
 background: rgb(93, 5, 5);
 color: wheat;
 
 }
-
-
 }
