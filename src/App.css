@@ -271,7 +271,6 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
  flex-direction: column;
  align-items: center;
  justify-content: center;
- border: 5px solid maroon;
  border-radius: 5px;
 }
 .Location iframe{
@@ -410,7 +409,7 @@ color: wheat;
 
 
 /* 325px */
-@media (max-width: 340px) {
+@media (max-width: 300px) {
   
   /* Home Page */
   .HomePage{
@@ -819,7 +818,7 @@ color: wheat;
 
 
 /* Extra Small Devices (portrait phones, less than 360px) */
-@media (max-width: 375px) {
+@media  (min-width : 300px) and (max-width: 380px) {
   
 /* Home Page */
 .HomePage{
@@ -842,7 +841,7 @@ color: wheat;
 
 /* Intro Container */
 .Intro_Container{
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -862,23 +861,25 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 }
 
 .Flower_decors img{
-  margin-top: 90px;
+  margin-top: 80px;
   height: 100px;
   width: 250px;
   
 
 }
 .sideWall img{
-  margin-top: -170px;
+  margin-top: -160px;
   height: 500px;
-  width: 360px;
+  width: 400px;
 }
 
 .details{
+  margin-top: -60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
   width: 100%;
   gap: 20px;
 }
@@ -926,7 +927,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 /* Details Page */
 .Details_Container{
-  margin-top: -9px;
+  margin-top: 7px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -1070,7 +1071,416 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
  
 }
 .Location_Container h4{
-  margin-top: -90px;
+  margin-top: 40px;
+  font-size: 25px;
+  color: maroon;
+  font-family: "Play", sans-serif;
+}
+.Location{
+  margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 5px;
+}
+.Location iframe{
+  height: 350px;
+  width: 330px;
+  border-radius: 5px;
+ 
+}
+.Button{
+  height: 50px;
+  width: 330px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.Button a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* Gallery Container */
+.Gallery_Container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 8px 6px 0px black;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+.Gallery{
+  margin-top: 70px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+     -webkit-column-width:20% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 12px;
+}
+.Gallery_Container h4{
+  margin-top: 70px;
+  font-size: 30px;
+}
+.BRGR_images img{
+  height: 180px;
+  width: 150px;
+  border:  2px solid maroon
+  
+}
+.BRGR_images .active img{
+  border: 4px solid green;
+}
+
+/* Contacts */
+
+.wish{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+
+}
+
+.social_Share{
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+padding: 80px;
+font-size: 20px;
+color: rgb(93, 5, 5);
+box-shadow: 5px 8px 0px 0px black;
+background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+
+}
+.network{
+  margin-top: 10px;
+  display: flex;
+
+}
+.network img{
+  height: 30px;
+}
+.network .whatsapp img{
+  margin-top: -2px;
+  height: 35px;
+}
+
+.details_1{
+  width: 100%;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 100px;
+}
+.details_1 .p1{
+  margin-top: 110px;
+  font-size: 25px;
+  font-family: "Satisfy", cursive;
+}
+.details_1 p{
+  font-size: 15px;
+ 
+}
+.details_1 a{
+  height: 40px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(93, 5, 5);
+  border-radius: 5px;
+  color: rgb(93, 5, 5);
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+.details_1 a:hover{
+background: rgb(93, 5, 5);
+color: wheat;
+
+}
+}
+/* Small Devices (phones, 360px to 479px) */
+@media (min-width: 380px) and (max-width: 400px) {
+  
+/* Home Page */
+.HomePage{
+  margin-top: -40px;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffc0ec;
+  background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
+
+}
+.Boreder{
+  margin-top: -20px;
+  box-shadow: 2px 2px 6px 6px  black;
+}
+
+/* Intro Container */
+.Intro_Container{
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+
+.Intro_Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  box-shadow: 2px 2px 6px 6px  black;
+}
+
+.Flower_decors img{
+  margin-top: 80px;
+  height: 100px;
+  width: 250px;
+  
+
+}
+.sideWall img{
+  margin-top: -160px;
+  height: 500px;
+  width: 400px;
+}
+
+.details{
+  margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
+.details h2{
+  margin-top: -350px;
+  font-size: 28px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: maroon;
+}
+.details h3{
+  font-size: 20px;
+  color: rgb(119, 5, 5);
+  font-family: "Play", sans-serif;
+}
+.details p{
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Play", sans-serif;
+}
+.Garden img{
+  margin-top: -20px;
+  height: 220px;
+  width: 400px;
+}
+.Girl_Swing{
+  margin-top: -308px;
+}
+.Girl_Swing img{
+  margin-top: 25px;
+  height: 300px;
+  padding-left: 90px;
+
+}
+.Frame{
+  margin-top: -70px;
+}
+.Frame img{
+  margin-top: -970px;
+  height: 250px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* Details Page */
+.Details_Container{
+  margin-top: 7px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+}
+.Details_Page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180vh;
+  width: 100vw;
+  box-shadow: 2px 2px 6px 5px  black;
+}
+.Bell{
+  margin-top: 50px;
+}
+.Bell img{
+  margin-top: 00px;
+  height: 200px;
+  width: 300px;
+}
+.Flower_bg{
+  margin-top: -200px;
+}
+.Flower_bg img{
+  margin-top: -60px;
+  height: 400px;
+  width: 420px;
+}
+.Girl_Img{
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 250px;
+  background-color: rgb(241, 185, 88);
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
+}
+.Girl_Img img{
+  margin-top:-100px;
+  height: 250px;
+  width: 200px;
+  border-radius: 50px;
+}
+.name p{
+  margin-top: -50px;
+  font-size: 35px;
+  color: rgb(255, 237, 149);
+  font-family: "Satisfy", cursive;
+}
+.content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  /* background-color: #fff7f7; */
+  /* height: 240px;
+  width: 500px;
+  border-radius: 10px; */
+  /* box-shadow: 1px 1px 1px 1px maroon; */
+}
+.content p{
+  font-size: 25px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+}
+
+.content2 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+.content2 p{
+  font-family: "Satisfy", cursive;
+  color: maroon;
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.content3 h3{
+  font-size: 25px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.content3 p{
+  font-family: "Satisfy", cursive;
+}
+
+/* venue */
+.Venue {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.Venue h3{
+  font-size: 28px;
+  color:maroon;
+  font-family: "Play", sans-serif;
+  font-weight: 400px;
+}
+.Venue p{
+  font-size: 20px;
+  color: rgb(119, 5, 5);
+  font-family: "Satisfy", cursive;
+}
+.borderline img{
+  margin-top: -80px;
+  height: 20px;
+  width: 200px;
+}
+
+
+/* Location */
+.Location_Container{
+  margin-top: -300px;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #dedede;
+  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
+  box-shadow: 5px 8px 6px 0px black;
+ 
+}
+.Location_Container h4{
+  margin-top: 40px;
   font-size: 25px;
   color: maroon;
   font-family: "Play", sans-serif;
@@ -1091,7 +1501,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 }
 .Button{
   height: 50px;
-  width: 510px;
+  width: 340px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -1106,7 +1516,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 /* Gallery Container */
 .Gallery_Container{
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -1225,8 +1635,9 @@ color: wheat;
 }
 }
 /* Small Devices (phones, 360px to 479px) */
-@media (min-width: 380px) and (max-width: 400px) {
-  /* Home Page */
+@media (min-width: 400px) and (max-width: 768px) {
+   
+/* Home Page */
 .HomePage{
   margin-top: -40px;
   height: 100%;
@@ -1247,7 +1658,7 @@ color: wheat;
 
 /* Intro Container */
 .Intro_Container{
-  height: 100%;
+  height: 80vh;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -1261,35 +1672,37 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   box-shadow: 2px 2px 6px 6px  black;
 }
 
 .Flower_decors img{
-  margin-top: 90px;
-  height: 100px;
-  width: 250px;
+  margin-top: 80px;
+  height: 150px;
+  width: 280px;
   
 
 }
 .sideWall img{
-  margin-top: -170px;
+  margin-top: -200px;
   height: 500px;
-  width: 390px;
+  width: 450px;
 }
 
 .details{
+  margin-top: -60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
   width: 100%;
   gap: 20px;
 }
 .details h2{
   margin-top: -350px;
-  font-size: 28px;
+  font-size: 25px;
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
@@ -1306,9 +1719,9 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   font-family: "Play", sans-serif;
 }
 .Garden img{
-  margin-top: 20px;
-  height: 220px;
-  width: 400px;
+  margin-top: -20px;
+  height: 280px;
+  width: 500px;
 }
 .Girl_Swing{
   margin-top: -308px;
@@ -1331,7 +1744,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 /* Details Page */
 .Details_Container{
-  margin-top: -68px;
+  margin-top: 7px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -1464,6 +1877,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 /* Location */
 .Location_Container{
+  margin-top: -450px;
   height: 100%;
   width: 100vw;
   display: flex;
@@ -1475,7 +1889,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
  
 }
 .Location_Container h4{
-  margin-top: -90px;
+  margin-top: 40px;
   font-size: 25px;
   color: maroon;
   font-family: "Play", sans-serif;
@@ -1490,13 +1904,13 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 }
 .Location iframe{
   height: 350px;
-  width: 400px;
+  width: 340px;
   border-radius: 5px;
  
 }
 .Button{
   height: 50px;
-  width: 510px;
+  width: 340px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -1511,7 +1925,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 
 /* Gallery Container */
 .Gallery_Container{
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -1549,7 +1963,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
 /* Contacts */
 
 .wish{
-  margin-top: 150px;
+  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1569,7 +1983,7 @@ background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 25
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 60vh;
   width: 100vw;
 padding: 80px;
 font-size: 20px;
@@ -1628,416 +2042,7 @@ background: rgb(93, 5, 5);
 color: wheat;
 
 }
-  
 }
-/* Small Devices (phones, 360px to 479px) */
-@media (min-width: 400px) and (max-width: 768px) {
-  
-  .HomePage{
-    margin-top: -40px;
-    height: 100%;
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #ffc0ec;
-    background: radial-gradient(circle, rgb(246, 222, 237) 0%, rgba(250, 222, 250, 1) 100%);
-  
-  }
-  .Boreder{
-    margin-top: -20px;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  
-  /* Intro Container */
-  .Intro_Container{
-    height: 100%;
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  
-  .Intro_Page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    box-shadow: 2px 2px 6px 6px  black;
-  }
-  
-  .Flower_decors img{
-    margin-top: 90px;
-    height: 100px;
-    width: 270px;
-    
-  
-  }
-  .sideWall img{
-    margin-top: -170px;
-    height: 500px;
-    width: 450px;
-  }
-  
-  .details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-  }
-  .details h2{
-    margin-top: -350px;
-    font-size: 28px;
-    font-family: "Satisfy", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: maroon;
-  }
-  .details h3{
-    font-size: 20px;
-    color: rgb(119, 5, 5);
-    font-family: "Play", sans-serif;
-  }
-  .details p{
-    font-size: 18px;
-    margin-top: 20px;
-    font-family: "Play", sans-serif;
-  }
-  .Garden img{
-    margin-top: 10px;
-    height: 220px;
-    width: 420px;
-  }
-  .Girl_Swing{
-    margin-top: -308px;
-  }
-  .Girl_Swing img{
-    margin-top: 25px;
-    height: 300px;
-    padding-left: 90px;
-  
-  }
-  .Frame{
-    margin-top: -70px;
-  }
-  .Frame img{
-    margin-top: -970px;
-    height: 250px;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-  
-  /* Details Page */
-  .Details_Container{
-    margin-top: -170px;
-    margin-bottom: -100px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  }
-  .Details_Page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 180vh;
-    width: 100vw;
-    box-shadow: 2px 2px 6px 5px  black;
-  }
-  .Bell{
-    margin-top: 50px;
-  }
-  .Bell img{
-    margin-top: 00px;
-    height: 200px;
-    width: 300px;
-  }
-  .Flower_bg{
-    margin-top: -200px;
-  }
-  .Flower_bg img{
-    margin-top: -60px;
-    height: 400px;
-    width: 420px;
-  }
-  .Girl_Img{
-    margin-top: -100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    width: 250px;
-    background-color: rgb(241, 185, 88);
-    border-radius: 50px;
-    box-shadow: 2px 2px 4px 4px rgb(241, 185, 88);
-  }
-  .Girl_Img img{
-    margin-top:-100px;
-    height: 250px;
-    width: 200px;
-    border-radius: 50px;
-  }
-  .name p{
-    margin-top: -50px;
-    font-size: 35px;
-    color: rgb(255, 237, 149);
-    font-family: "Satisfy", cursive;
-  }
-  .content {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    /* background-color: #fff7f7; */
-    /* height: 240px;
-    width: 500px;
-    border-radius: 10px; */
-    /* box-shadow: 1px 1px 1px 1px maroon; */
-  }
-  .content p{
-    font-size: 25px;
-    color:maroon;
-    font-family: "Play", sans-serif;
-  }
-  
-  .content2 {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
-  }
-  .content2 p{
-    font-family: "Satisfy", cursive;
-    color: maroon;
-  }
-  
-  .content3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  .content3 h3{
-    font-size: 25px;
-    color:maroon;
-    font-family: "Play", sans-serif;
-    font-weight: 400px;
-  }
-  .content3 p{
-    font-family: "Satisfy", cursive;
-  }
-  
-  /* venue */
-  .Venue {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-  }
-  .Venue h3{
-    font-size: 28px;
-    color:maroon;
-    font-family: "Play", sans-serif;
-    font-weight: 400px;
-  }
-  .Venue p{
-    font-size: 20px;
-    color: rgb(119, 5, 5);
-    font-family: "Satisfy", cursive;
-  }
-  .borderline img{
-    margin-top: -80px;
-    height: 20px;
-    width: 200px;
-  }
-  
-  
-  /* Location */
-  .Location_Container{
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-    box-shadow: 5px 8px 6px 0px black;
-   
-  }
-  .Location_Container h4{
-    margin-top: -90px;
-    font-size: 25px;
-    color: maroon;
-    font-family: "Play", sans-serif;
-  }
-  .Location{
-    margin-top: 50px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border-radius: 5px;
-  }
-  .Location iframe{
-    height: 350px;
-    width: 440px;
-    border-radius: 5px;
-   
-  }
-  .Button{
-    height: 50px;
-    width: 510px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-  }
-  .Button a{
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
-  
-  /* Gallery Container */
-  .Gallery_Container{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
-    color:maroon;
-    font-family: "Play", sans-serif;
-    background: #dedede;
-    background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-    margin-bottom: -200px;
-  }
-  .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-       -webkit-column-width:20% ;
-       -moz-column-width: 13%;
-      column-width: 13%;
-      padding: 0 12px;
-  }
-  .Gallery_Container h4{
-    margin-top: 70px;
-    font-size: 30px;
-  }
-  .BRGR_images img{
-    height: 180px;
-    width: 150px;
-    border:  2px solid maroon
-    
-  }
-  .BRGR_images .active img{
-    border: 4px solid green;
-  }
-  
-  /* Contacts */
-  
-  .wish{
-    margin-top: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 100vw;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-family: "Bodoni Moda", serif;
-    font-optical-sizing: auto;
-  
-  }
-  
-  .social_Share{
-    margin-top: -30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    width: 100vw;
-  padding: 80px;
-  font-size: 20px;
-  color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
-  background: #dedede;
-  background: radial-gradient(circle, rgba(222, 222, 222, 1) 0%, rgba(250, 222, 250, 1) 100%);
-  
-  }
-  .network{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-  .network img{
-    height: 30px;
-  }
-  .network .whatsapp img{
-    margin-top: -2px;
-    height: 35px;
-  }
-  
-  .details_1{
-    width: 100%;
-    margin-top: -80px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-right: 100px;
-  }
-  .details_1 .p1{
-    margin-top: 110px;
-    font-size: 25px;
-    font-family: "Satisfy", cursive;
-  }
-  .details_1 p{
-    font-size: 15px;
-   
-  }
-  .details_1 a{
-    height: 40px;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(93, 5, 5);
-    border-radius: 5px;
-    color: rgb(93, 5, 5);
-    padding: 10px;
-    font-size: 16px;
-    text-decoration: none;
-    
-  }
-  .details_1 a:hover{
-  background: rgb(93, 5, 5);
-  color: wheat;
-  
-  }
-    
-  }
 
 
 /* Large Tablets to Laptops (768px to 1024px) */
